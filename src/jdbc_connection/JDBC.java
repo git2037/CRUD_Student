@@ -27,14 +27,4 @@ public class JDBC {
 
 		return null;
 	}
-
-	public static void main(String[] args) {
-		Connection connection = getJDBCConnection();
-
-		if (connection != null) {
-			System.out.println("Access");
-		} else {
-			System.out.println("Fail");
-		}
-	}
 }
